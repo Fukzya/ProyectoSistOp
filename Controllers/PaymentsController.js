@@ -22,7 +22,7 @@ const processPayment = async (req, res) => {
       price,
       status,
     });
-
+    //WWA
     await payment.save();
 
     res.status(201).json({

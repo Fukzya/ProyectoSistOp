@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
@@ -9,5 +9,5 @@ const connectDB = async () => {
     process.exit(1); // Detener el servidor en caso de error
   }
 };
-
+//AS
 module.exports = connectDB;
